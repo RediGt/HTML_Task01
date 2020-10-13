@@ -1,0 +1,31 @@
+<link rel="stylesheet" href="style.css">
+
+<header>
+    <img src="logo.png" class="logo">
+</header>
+
+<section class="form">
+    <label for="post-author">Author</label>
+    <br>                                        <!-- next line -->
+    <input type="text" id="post-author">
+    <br><br>
+
+    <label for="post-avatar">Avatar</label>
+    <br>
+    <input type="text" id="post-avatar">
+    <br><br>
+
+    <label for="post-body">Text</label>
+    <br>
+    <textarea id="post-body"></textarea>
+    <br><br>
+    <button onclick="post()">Post</button>
+</section>
+
+<section class="post">
+    <img class="avatar" src="person.png">
+    <span class="author">red.i</span>
+    <p>This is the first comment that will always appear</p>
+</section>
+
+<script src="main.js"></script>
